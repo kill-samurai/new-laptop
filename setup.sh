@@ -8,4 +8,4 @@ cp ./ohmyzsh-theme-passion/passion.zsh-theme ~/.oh-my-zsh/themes/passion.zsh-the
 brew install coreutils && 
 curl -O https://raw.githubusercontent.com/kill-samurai/new-laptop/refs/heads/main/.zshrc &&
 softwareupdate --install-rosetta --agree-to-license
-osascript -e 'tell application "Terminal" to do script "curl -sL https://raw.githubusercontent.com/kill-samurai/new-laptop/refs/heads/main/cont.sh | zsh'
+osascript -e 'tell application "Terminal" to do script "curl -sL https://raw.githubusercontent.com/kill-samurai/new-laptop/refs/heads/main/cont.sh | zsh"'
