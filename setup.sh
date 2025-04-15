@@ -6,7 +6,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git clone https://github.com/ChesterYue/ohmyzsh-theme-passion &&
 cp ./ohmyzsh-theme-passion/passion.zsh-theme ~/.oh-my-zsh/themes/passion.zsh-theme &&
 brew install coreutils && 
-curl -O https://raw.githubusercontent.com/kill-samurai/new-laptop/refs/heads/main/.zshrc &&
+curl -O https://raw.githubusercontent.com/kill-samurai/nl/refs/heads/main/.zshrc &&
 softwareupdate --install-rosetta --agree-to-license
 brew install --cask postman && 
 brew install --cask brave-browser && 
@@ -23,4 +23,4 @@ brew install htop &&
 brew install --cask 1password &&
 brew install defaultbrowser &&
 defaultbrowser brave &&
-curl -sL https://raw.githubusercontent.com/kill-samurai/new-laptop/refs/heads/main/cont.sh | zsh
+curl -sL https://raw.githubusercontent.com/kill-samurai/nl/refs/heads/main/cont.sh | zsh
