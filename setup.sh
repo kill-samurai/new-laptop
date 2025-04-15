@@ -9,7 +9,7 @@ brew install coreutils &&
 curl -O https://raw.githubusercontent.com/kill-samurai/nl/refs/heads/main/.zshrc &&
 softwareupdate --install-rosetta --agree-to-license
 brew install --cask postman && 
-brew install --cask brave-browser && 
+brew install --cask google-chrome && 
 brew install node && 
 brew install --cask visual-studio-code && 
 brew install --cask dadroit-json-viewer && 
@@ -23,6 +23,5 @@ brew install htop &&
 brew install --cask 1password &&
 brew install defaultbrowser &&
 defaultbrowser
-#defaultbrowser brave &&
 brew install dockutil &&
 curl -sL https://raw.githubusercontent.com/kill-samurai/nl/refs/heads/main/cont.sh | zsh
