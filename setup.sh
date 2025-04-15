@@ -23,4 +23,5 @@ brew install htop &&
 brew install --cask 1password &&
 brew install defaultbrowser &&
 defaultbrowser brave &&
+brew install dockutil
 curl -sL https://raw.githubusercontent.com/kill-samurai/nl/refs/heads/main/cont.sh | zsh
