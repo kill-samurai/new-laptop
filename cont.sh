@@ -10,4 +10,6 @@ brew install --cask sublime-text &&
 brew install --cask spotify && 
 brew install --cask studio-3t && 
 brew install htop && 
-brew install --cask 1password
+brew install --cask 1password &&
+brew install defaultbrowser &&
+defaultbrowser brave
