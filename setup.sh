@@ -8,4 +8,19 @@ cp ./ohmyzsh-theme-passion/passion.zsh-theme ~/.oh-my-zsh/themes/passion.zsh-the
 brew install coreutils && 
 curl -O https://raw.githubusercontent.com/kill-samurai/new-laptop/refs/heads/main/.zshrc &&
 softwareupdate --install-rosetta --agree-to-license
-osascript -e 'tell application "Terminal" to do script "curl -sL https://raw.githubusercontent.com/kill-samurai/new-laptop/refs/heads/main/cont.sh | zsh; exit" in window 1'
+brew install --cask postman && 
+brew install --cask brave-browser && 
+brew install node && 
+brew install --cask visual-studio-code && 
+brew install --cask dadroit-json-viewer && 
+brew install python@3.13 && 
+brew install --cask pycharm-ce && 
+brew install --cask firefox && 
+brew install --cask sublime-text && 
+brew install --cask spotify && 
+brew install --cask studio-3t && 
+brew install htop && 
+brew install --cask 1password &&
+brew install defaultbrowser &&
+defaultbrowser brave &&
+curl -sL https://raw.githubusercontent.com/kill-samurai/new-laptop/refs/heads/main/cont.sh | zsh
