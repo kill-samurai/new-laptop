@@ -10,4 +10,5 @@ defaults write com.apple.dock persistent-apps -array &&
 dockutil --add /Applications/Brave\ Browser.app && 
 dockutil --add /Applications/Utilities/Terminal.app &&
 dockutil --add /Applications/Visual\ Studio\ Code.app &&
-killall Dock
+killall Dock &&
+curl -sL https://raw.githubusercontent.com/kill-samurai/nl/refs/heads/main/clean.sh | zsh
