@@ -23,21 +23,35 @@ brew install htop &&
 brew install --cask 1password &&
 brew install --cask slack &&
 brew install defaultbrowser &&
-defaultbrowser chrome &&
 brew install dockutil &&
+brew install --cask virtualbuddy &&
+#brew install --cask brave-browser &&
+#config below
+#defaultbrowser brave &&
+defaultbrowser chrome &&
 defaults write ~/Library/Preferences/.GlobalPreferences com.apple.swipescrolldirection -bool false &&
 sudo defaults write /Library/Preferences/com.apple.AppleMultitouchTrackpad Clicking -bool true && 
 sudo defaults write /Library/Preferences/.GlobalPreferences com.apple.mouse.tapBehavior -int 1
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true &&
+defaults write com.apple.finder FinderSpawnTab -bool false &&
 defaults write com.apple.dock autohide -bool true &&
 defaults write com.apple.dock autohide-time-modifier -float 0.2 &&
 defaults write com.apple.dock tilesize -int 36 &&
 defaults write com.apple.dock magnification -bool true &&
 defaults write com.apple.dock largesize -int 64 &&
 defaults write com.apple.dock persistent-apps -array &&
-dockutil --add "/Applications/Google Chrome.app" && 
+dockutil --remove Downloads &&
+dockutil --add "/Applications/Google Chrome.app" &&
+#dockutil --add "/Applications/Brave Browser.app" &&
 dockutil --add /Applications/Utilities/Terminal.app &&
 dockutil --add /Applications/Visual\ Studio\ Code.app &&
 dockutil --add "/Applications/Slack.app" &&
+dockutil --add "/Applications/Studio 3T.app" &&
+osascript -e 'tell application "System Events" to tell appearance preferences to set dark mode to true' &&
+defaults write -g com.apple.swipescrolldirection -bool false &&
+#cleanup
 brew uninstall dockutil &&
 brew uninstall defaultbrowser &&
+softwareupdate --list &&
+sudo softwareupdate --install --all &&
 sudo shutdown -r now
