@@ -37,6 +37,7 @@ defaults write com.apple.dock persistent-apps -array &&
 dockutil --add "/Applications/Google Chrome.app" && 
 dockutil --add /Applications/Utilities/Terminal.app &&
 dockutil --add /Applications/Visual\ Studio\ Code.app &&
+dockutil --add "/Applications/Slack.app" &&
 brew uninstall dockutil &&
 brew uninstall defaultbrowser &&
 sudo shutdown -r now
