@@ -1,3 +1,3 @@
 brew uninstall dockutil &&
 brew uninstall defaultbrowser &&
-shutdown -r now
+sudo shutdown -r now
