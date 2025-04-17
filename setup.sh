@@ -25,6 +25,7 @@ brew install --cask slack &&
 brew install defaultbrowser &&
 brew install dockutil &&
 brew install --cask virtualbuddy &&
+HOMEBREW_NO_INSTALL_FROM_API=1 brew install --cask robo-3t &&
 #brew install --cask brave-browser &&
 #config below
 #defaultbrowser brave &&
