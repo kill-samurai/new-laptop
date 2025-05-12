@@ -1,5 +1,5 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" &&
-echo >> /Users/ll/.zprofile &&
+echo >> /Users/luisluna/.zprofile &
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/ll/.zprofile &&
 eval "$(/opt/homebrew/bin/brew shellenv)" &&
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" &&
