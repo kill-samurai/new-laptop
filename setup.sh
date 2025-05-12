@@ -42,7 +42,7 @@ defaults write com.apple.dock magnification -bool true &&
 defaults write com.apple.dock largesize -int 64 &&
 defaults write com.apple.dock persistent-apps -array &&
 dockutil --remove Downloads &&
-dockutil --add "/Applications/Google Chrome.app" &&
+#dockutil --add "/Applications/Google Chrome.app" &&
 #dockutil --add "/Applications/Brave Browser.app" &&
 dockutil --add /Applications/Utilities/Terminal.app &&
 dockutil --add /Applications/Visual\ Studio\ Code.app &&
